@@ -15,6 +15,7 @@
 		CC7E51DA1DE579DE009A6A8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7E51D81DE579DE009A6A8C /* LaunchScreen.storyboard */; };
 		CC7E51E51DE579DF009A6A8C /* CustomLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E51E41DE579DF009A6A8C /* CustomLabelTests.m */; };
 		CC7E51F01DE579DF009A6A8C /* CustomLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E51EF1DE579DF009A6A8C /* CustomLabelUITests.m */; };
+		CC7E51FF1DE57A1B009A6A8C /* CLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E51FE1DE57A1B009A6A8C /* CLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CC7E51EB1DE579DF009A6A8C /* CustomLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7E51EF1DE579DF009A6A8C /* CustomLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLabelUITests.m; sourceTree = "<group>"; };
 		CC7E51F11DE579DF009A6A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7E51FD1DE57A1B009A6A8C /* CLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLabel.h; sourceTree = "<group>"; };
+		CC7E51FE1DE57A1B009A6A8C /* CLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		CC7E51C91DE579DE009A6A8C /* CustomLabel */ = {
 			isa = PBXGroup;
 			children = (
+				CC7E51FD1DE57A1B009A6A8C /* CLabel.h */,
+				CC7E51FE1DE57A1B009A6A8C /* CLabel.m */,
 				CC7E51CD1DE579DE009A6A8C /* AppDelegate.h */,
 				CC7E51CE1DE579DE009A6A8C /* AppDelegate.m */,
 				CC7E51D01DE579DE009A6A8C /* ViewController.h */,
@@ -278,6 +283,7 @@
 			files = (
 				CC7E51D21DE579DE009A6A8C /* ViewController.m in Sources */,
 				CC7E51CF1DE579DE009A6A8C /* AppDelegate.m in Sources */,
+				CC7E51FF1DE57A1B009A6A8C /* CLabel.m in Sources */,
 				CC7E51CC1DE579DE009A6A8C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
